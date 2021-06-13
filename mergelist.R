@@ -1,0 +1,20 @@
+r1 <- list("DOG","CAT","DUCK","TURTLES")
+r2 <- list("bone", "fish", "worms","plant")
+print("original list")
+print(r1)
+print(r2)
+print("merge list")
+new = c(r1,r2)
+print(new)
+#random[2] = NULL
+#print(random)
+#print('1st element:')
+#print(random[1])
+#print('2nd element:')
+#print(random[2])
+#print("Add a new element at the end of the list:")
+#random[4] = "New element"
+#print(random)
+#print("Remove the element of the list:")
+#random[4] = NULL
+#print(random)

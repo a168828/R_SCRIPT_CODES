@@ -1,0 +1,5 @@
+rnames = c("Row1", "Row2", "Row3")
+cnames = c("Col1", "Col2", "Col3", "col4")
+m1 = matrix(1:12, nrow=3, ncol=4, byrow=TRUE, dimnames=list(rnames, cnames))
+print("3 × 4 matrix:")
+print(m1)
